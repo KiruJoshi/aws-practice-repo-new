@@ -9,7 +9,7 @@ public class TestAwsController {
 	@GetMapping("/getDetails")
 	public String getMessage() {
 		
-		return "hello from Aws Service";
+		return "Hi from Aws Service";
 	}
 
 }
